@@ -159,8 +159,8 @@ finalOutput <- team_totals_sorted %>%
 
 EPL_Standings("05/19/2024", "2023/24")
 
-#My process: I followed the helpful guide you provided last week and broke the solution into bits:
-# - Function creation and data formatting, then I read the file as variables epl_2122, epl_2223, and epl_2324.
+# - Function creation and data formatting, 
+# - I read the file as variables epl_2122, epl_2223, and epl_2324.
 # After which I did home and away df to have a better overview of the data
 # epl_data: This is a combination of home and away df using rbind
 # Other variables such as team_totals, away_totals, home_totals, and calculate_record, all were created to allow me be able to calculate the data points needed.
