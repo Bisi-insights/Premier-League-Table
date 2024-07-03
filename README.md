@@ -1,7 +1,7 @@
-**Premier-League-Table**
+## Premier-League-Table
 This repository contains an R function to update and display the English Premier League (EPL) standings as matches are played. The function processes match data for the last three seasons, starting from the 2021-2022 season up to the most recent season.
 
-**Overview**
+## Overview
 The EPL_Standings function reads match data from publicly available CSV files, calculates various statistics for each team, and outputs a table with updated standings. The statistics include total wins, losses, ties, points, points per match, and other relevant metrics.
 
 **Features**
@@ -18,10 +18,12 @@ To use the EPL_Standings function, specify the date up to which you want to incl
 EPL_Standings("05/21/2022", "2021/22")
 
 # Code Summary 
-'''
 
+Here is a summary of the code used in executing the EPL Standing Function
 EPL_Standings <- function(Date, Season) {
     date_limit <- mdy(Date)
+ '''   
+    
     
     epl_2324 <-
         read.csv("https://www.football-data.co.uk/mmz4281/2324/E0.csv")
