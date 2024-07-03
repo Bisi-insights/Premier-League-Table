@@ -160,9 +160,14 @@ EPL_Standings <- function(Date, Season) {
         select(Team,Record,HomeRec,AwayRec,MatchesPlayed,Points,PPM,PtPct,GS,GSM,GA,GAM)
     
     # Print the resulting table
-    print(finalOutput)
-}
+    print(finalOutput)}
 
 
+
+
+'''
+
+## Result
+With this code, I'm updated on the standings of the English Premier League Table
 
 
